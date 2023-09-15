@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="initial-scale=1.0, width=device-width">
+        <title>taurob Fleet Management</title>
+        <link rel="stylesheet" type="text/css" href="/basic/fleet/www/static/style.css">
+    </head>
+    <body>
+        <h2>Robot "gaia"</h2>
+        <h3>Sensor values</h2>
+        <table class="striped">
+            <tr>
+                <th>Sensor</th>
+                <th>Value</th>
+                <th>Type</th>
+                <th>Changes</th>
+                <th>Last Change</th>
+            </tr>
+        
+            <tr>
+                <td>light</td>
+                <td>False</td>
+                <td>bool</td>
+                <td>779855</td>
+                <td></td>
+            </tr>
+        
+            <tr>
+                <td>pose.base</td>
+                <td>'{"x": 20.535, "y": 49.178, "theta": 4.583, "flipper_joint": 0.256, "floor": "tadi_north"}'</td>
+                <td>str</td>
+                <td>501881</td>
+                <td></td>
+            </tr>
+        
+            <tr>
+                <td>pose.arm</td>
+                <td>'{"arm_joint_1": 2.01, "arm_joint_2": 3.366, "arm_joint_3": 0.154, "arm_joint_4": 2.936}'</td>
+                <td>str</td>
+                <td>1477307</td>
+                <td></td>
+            </tr>
+        
+            <tr>
+                <td>pose.total_distance</td>
+                <td>19.199060655518448</td>
+                <td>float</td>
+                <td>780485</td>
+                <td></td>
+            </tr>
+        
+            <tr>
+                <td>health.battery_level</td>
+                <td>68.0</td>
+                <td>float</td>
+                <td>779504</td>
+                <td></td>
+            </tr>
+        
+            <tr>
+                <td>health.battery_state</td>
+                <td>'good'</td>
+                <td>str</td>
+                <td>778932</td>
+                <td></td>
+            </tr>
+        
+            <tr>
+                <td>health.stop_reasons</td>
+                <td>'["U-ECU service \\"base_l_flipper/drive\\" is not connected.", "U-ECU service \\"base_l_flipper/flipper\\" is not connected.", "U-ECU service \\"base_l_flipper/sysctl\\" is not connected.", "U-ECU service \\"base_r_j1/arm_joint_1\\" is not connected.", "U-ECU service \\"base_r_j1/drive\\" is not connected.", "U-ECU service \\"base_r_j1/sysctl\\" is not connected.", "U-ECU service \\"j2/arm_joint_2\\" is not connected.", "U-ECU service \\"j2/sysctl\\" is not connected.", "U-ECU service \\"j3/arm_joint_3\\" is not connected.", "U-ECU service \\"j3/sysctl\\" is not connected.", "U-ECU service \\"j4/arm_joint_4\\" is not connected.", "U-ECU service \\"j4/sysctl\\" is not connected."]'</td>
+                <td>str</td>
+                <td>775629</td>
+                <td></td>
+            </tr>
+        
+            <tr>
+                <td>health.uptime</td>
+                <td>508.38</td>
+                <td>float</td>
+                <td>780471</td>
+                <td></td>
+            </tr>
+        
+            <tr>
+                <td>health.cpuload</td>
+                <td>None</td>
+                <td>float</td>
+                <td>0</td>
+                <td></td>
+            </tr>
+        
+            <tr>
+                <td>sensor.obstacle_status</td>
+                <td>'{}'</td>
+                <td>str</td>
+                <td>84903</td>
+                <td></td>
+            </tr>
+        
+            <tr>
+                <td>sensor.gpa</td>
+                <td>None</td>
+                <td>bool</td>
+                <td>0</td>
+                <td></td>
+            </tr>
+        
+            <tr>
+                <td>sensor.docking_state</td>
+                <td>True</td>
+                <td>bool</td>
+                <td>779166</td>
+                <td></td>
+            </tr>
+        
+            <tr>
+                <td>sensor.pcu.pressure_1</td>
+                <td>0.0</td>
+                <td>float</td>
+                <td>779771</td>
+                <td></td>
+            </tr>
+        
+            <tr>
+                <td>sensor.pcu.pressure_2</td>
+                <td>0.0</td>
+                <td>float</td>
+                <td>779604</td>
+                <td></td>
+            </tr>
+        
+            <tr>
+                <td>sensor.pcu.wireless_emergency_stop</td>
+                <td>False</td>
+                <td>bool</td>
+                <td>780019</td>
+                <td></td>
+            </tr>
+        
+            <tr>
+                <td>sensor.pcu.atex_mode</td>
+                <td>False</td>
+                <td>bool</td>
+                <td>779915</td>
+                <td></td>
+            </tr>
+        
+            <tr>
+                <td>sensor.pcu.battery_warning</td>
+                <td>'{"warning": false}'</td>
+                <td>str</td>
+                <td>780223</td>
+                <td></td>
+            </tr>
+        
+            <tr>
+                <td>sensor.pcu.left_motor_enabled</td>
+                <td>False</td>
+                <td>bool</td>
+                <td>779162</td>
+                <td></td>
+            </tr>
+        
+            <tr>
+                <td>sensor.pcu.right_motor_enabled</td>
+                <td>False</td>
+                <td>bool</td>
+                <td>778751</td>
+                <td></td>
+            </tr>
+        
+            <tr>
+                <td>sensor.gas.xam8000</td>
+                <td>'{"IBUT": {"value": NaN, "unit": "Unknown", "lower_alarms": [0.0, 0.0], "upper_alarms": [50.0, 100.0]}, "CO2": {"value": NaN, "unit": "Unknown", "lower_alarms": [0.0, 0.0], "upper_alarms": [0.0, 1.0]}, "TOLU": {"value": NaN, "unit": "Unknown", "lower_alarms": [0.0, 0.0], "upper_alarms": [20.0, 40.0]}, "O2": {"value": NaN, "unit": "Unknown", "lower_alarms": [19.0, 17.0], "upper_alarms": [23.0, 24.0]}, "CO": {"value": NaN, "unit": "Unknown", "lower_alarms": [0.0, 0.0], "upper_alarms": [20.0, 60.0]}, "H2S": {"value": NaN, "unit": "Unknown", "lower_alarms": [0.0, 0.0], "upper_alarms": [5.0, 10.0]}}'</td>
+                <td>str</td>
+                <td>15930</td>
+                <td></td>
+            </tr>
+        
+            <tr>
+                <td>user_action_request</td>
+                <td>None</td>
+                <td>str</td>
+                <td>0</td>
+                <td></td>
+            </tr>
+        
+            <tr>
+                <td>robot_remote_stop</td>
+                <td>False</td>
+                <td>bool</td>
+                <td>780383</td>
+                <td></td>
+            </tr>
+        
+            <tr>
+                <td>robot.safe_state</td>
+                <td>False</td>
+                <td>bool</td>
+                <td>121</td>
+                <td></td>
+            </tr>
+        
+            <tr>
+                <td>robot.docking_station</td>
+                <td>''</td>
+                <td>str</td>
+                <td>50</td>
+                <td></td>
+            </tr>
+        
+            <tr>
+                <td>health.uecu.base_l_flipper.temperature</td>
+                <td>35.0</td>
+                <td>float</td>
+                <td>779257</td>
+                <td></td>
+            </tr>
+        
+            <tr>
+                <td>health.uecu.base_r_j1.temperature</td>
+                <td>34.0</td>
+                <td>float</td>
+                <td>778865</td>
+                <td></td>
+            </tr>
+        
+            <tr>
+                <td>health.uecu.base_l_flipper.supply_voltage</td>
+                <td>25.736</td>
+                <td>float</td>
+                <td>779531</td>
+                <td></td>
+            </tr>
+        
+            <tr>
+                <td>health.uecu.base_r_j1.supply_voltage</td>
+                <td>25.629</td>
+                <td>float</td>
+                <td>778986</td>
+                <td></td>
+            </tr>
+        
+            <tr>
+                <td>health.uecu.j2_j3.supply_voltage</td>
+                <td>None</td>
+                <td>float</td>
+                <td>0</td>
+                <td></td>
+            </tr>
+        
+            <tr>
+                <td>health.uecu.j4_j5.supply_voltage</td>
+                <td>None</td>
+                <td>float</td>
+                <td>0</td>
+                <td></td>
+            </tr>
+        
+        </table>
+        <h3>Actuator values</h2>
+        <table class="striped">
+            <tr>
+                <th>Actuator</th>
+                <th>Value</th>
+                <th>Type</th>
+                <th>Changes</th>
+                <th>Last Change</th>
+				<th>Changed By</th>
+            </tr>
+        
+            <tr>
+                <td>light</td>
+                <td>None</td>
+                <td>bool</td>
+                <td>0</td>
+                <td>n/a</td>
+                <td>n/a</td>
+            </tr>
+        
+            <tr>
+                <td>robot_remote_stop</td>
+                <td>None</td>
+                <td>bool</td>
+                <td>0</td>
+                <td>n/a</td>
+                <td>n/a</td>
+            </tr>
+        
+            <tr>
+                <td>mission_stop</td>
+                <td>None</td>
+                <td>bool</td>
+                <td>0</td>
+                <td>n/a</td>
+                <td>n/a</td>
+            </tr>
+        
+            <tr>
+                <td>user_action_response</td>
+                <td>None</td>
+                <td>str</td>
+                <td>0</td>
+                <td>n/a</td>
+                <td>n/a</td>
+            </tr>
+        
+            <tr>
+                <td>safe_state</td>
+                <td>None</td>
+                <td>bool</td>
+                <td>0</td>
+                <td>n/a</td>
+                <td>n/a</td>
+            </tr>
+        
+            <tr>
+                <td>thermal_cam_mode</td>
+                <td>None</td>
+                <td>str</td>
+                <td>0</td>
+                <td>n/a</td>
+                <td>n/a</td>
+            </tr>
+        
+            <tr>
+                <td>thermal_cam_autofocus</td>
+                <td>None</td>
+                <td>bool</td>
+                <td>0</td>
+                <td>n/a</td>
+                <td>n/a</td>
+            </tr>
+        
+        </table>
+    </body>
+</html>

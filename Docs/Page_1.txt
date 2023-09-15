@@ -1,0 +1,92 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- robot_coordinator: V_2_2_premium-3-g884523d
+ -->
+        <meta charset="utf-8" />
+        <meta name="viewport" content="initial-scale=1.0, width=device-width">
+        <title>taurob Fleet Management</title>
+        <link rel="stylesheet" type="text/css" href="/basic/fleet/www/static/style.css">
+        <link rel="stylesheet" type="text/css" href="/basic/fleet/www/static/fontawesome/css/all.css">
+    </head>
+    <body>
+        <h2>taurob Fleet Management</h2>
+        <h3>Robot states</h3>
+        <ul>
+        
+            <li>
+                <a href='/basic/fleet/www/status/robot/athos'>athos</a>
+            </li>
+        
+            <li>
+                <a href='/basic/fleet/www/status/robot/dartagnan'>dartagnan</a>
+            </li>
+        
+            <li>
+                <a href='/basic/fleet/www/status/robot/gaia'>gaia</a>
+            </li>
+        
+            <li>
+                <a href='/basic/fleet/www/status/robot/richelieu'>richelieu</a>
+            </li>
+        
+        </ul>
+        <h3>Docking stations</h3>
+        <ul>
+        
+            <li>
+                <a href='/basic/fleet/www/status/docking_station/docking_station_a'>
+                    docking_station_a
+                </a>
+            </li>
+        
+            <li>
+                <a href='/basic/fleet/www/status/docking_station/docking_station_b'>
+                    docking_station_b
+                </a>
+            </li>
+        
+            <li>
+                <a href='/basic/fleet/www/status/docking_station/docking_station_earth'>
+                    docking_station_earth
+                </a>
+            </li>
+        
+            <li>
+                <a href='/basic/fleet/www/status/docking_station/docking_station_mars'>
+                    docking_station_mars
+                </a>
+            </li>
+        
+        </ul>
+        <h3>Missions
+            <a
+                title="Get mission list as RSS feed."
+                href="/basic/fleet/www/mission_feed">
+                <i class="fas fa-rss" style="color: #ee802f"></i>
+            </a>
+        </h3>
+        <ul>
+        
+            <li>
+                <a href='/basic/fleet/www/status/missions/athos'>athos</a>
+            </li>
+        
+            <li>
+                <a href='/basic/fleet/www/status/missions/dartagnan'>dartagnan</a>
+            </li>
+        
+            <li>
+                <a href='/basic/fleet/www/status/missions/gaia'>gaia</a>
+            </li>
+        
+            <li>
+                <a href='/basic/fleet/www/status/missions/richelieu'>richelieu</a>
+            </li>
+        
+        </ul>
+        <h3>Web teach-in</h3>
+        <a href='/basic/fleet/www/teach-in-selector'>Teach-in selector</a>
+    </body>
+</html>

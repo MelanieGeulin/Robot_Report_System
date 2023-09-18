@@ -11,6 +11,8 @@ Last update - 15/09/2023
 from functions.globals import *
 from functions.connect_to_FMS import *
 from functions.calculations import *
+
+import os
 ##########################################
 
 
@@ -24,6 +26,32 @@ def processing_gaia():
     Return:
         None
     """
+
+    #Check if the data log is there
+    if os.path.exists(data_path_gaia):
+        print("Data log exists")
+
+    else:
+        print("File creation for GAIA...")
+
+        #Create calculations file for GAIA
+        array = np.zeros((60,3))
+        with open(data_path_gaia, 'w') as file:
+            for item in array:
+                file.write(str(item) + "\n")
+
+    
+    #Check if the mission log is there
+    if os.path.exists(missions_path_gaia):
+        print("File exists")
+    
+    else:
+        print("File creation for GAIA...")
+
+        #Create missions list file for GAIA
+        with open(missions_path_gaia, 'w') as file:
+            file.write(str("[0. 0. 0.]") + "\n")
+            
 
     #Connection to FMS
     session,response = connect_to_FMS(url36,auth36)

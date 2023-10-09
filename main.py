@@ -1,6 +1,6 @@
 """
 PROGRAM NAME - Robot Report System
-PROGRAMMER - GloomyKuriozity (gloomykuriosity@gmail.com)
+PROGRAMMER - Mélanie Geulin (melanie.geulin@gmail.com)
 LANGUAGE - Python 
 SYSTEM - Windows 11
 DATE - 15/09/2023
